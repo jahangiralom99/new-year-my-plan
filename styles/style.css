@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    font-family: 'Work Sans', sans-serif;
+}
+/* style header section */
+header{
+    background-image: url(../images/banner/banner1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 808px;
+}
+.banner{
+    padding: 216px 230px 364px 845px;
+    text-align: right;
+}
+.banner-title{
+    margin-bottom: 24px;
+    font-size: 65px;
+    font-weight: 700;
+    color: #151414;
+}
+.banner-Discripssion{
+    margin-bottom: 32px;
+    color: #444343;
+}
+/* end header section  */
+
+/* style button */
+.btn-primary{
+    padding: 20px 25px;
+    height: 64px;
+    border: none;
+    background: #F15B22;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+/* style button end*/
+
+/* failure-section start */
+.container-failure-section{
+    margin-top: 130px;
+    padding: 10px 200px;
+    display: flex;
+    gap: 100px;
+    /* align-content: baseline; */
+    
+}
+.failure-section{
+    padding-top: 230px;
+}
+.failure-title{
+   margin-bottom: 24px;
+    font-weight: 700;
+    font-size: 40px;
+}
+.failure-descrption{
+    margin-bottom: 24px;
+    line-break: 40;
+    color: #444343;
+}
+/* end Failure section */
+/* start may paln section */
+.my-plan-title{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 47px;
+    text-align: center;
+}
+.plan-title{
+    font-weight: 700;
+    font-size: 34px;
+}
+.container-my-plans{
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 124px;
+}
+.plan-description{
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+}
+
+/* container-of-mindset start */
+.container-of-mindset{
+    background-image: url(../images/gradient2.png), url(../images/watch.png);
+    background-repeat:no-repeat;
+    border-radius: 8px;
+    height: 300px;
+    margin: 130px 230px;
+}
+.mindset-title{
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+.btn-callnow{
+    padding: 20px 30px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 24px;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    height: 64px;
+    color: #F15B22;
+}
+.mindset{
+    padding-left: 64px;
+    padding-top: 60px;
+}
+/* container-of-mindset end */
+
+/* satrt fotter */
+footer{
+    color: #FFFFFF;
+    display: flex;
+    gap: 303px;
+    padding: 130px 230px;
+    justify-content: space-around;
+    height: 577px;
+    background: #151414;
+}
+.title{
+    font-size: 45px;
+    font-weight: 700px;
+    color: #F8F8F8;
+
+}
+.future-description{ 
+    margin-top: 16px;
+    margin-bottom: 24px;
+    word-break: break-all;
+    text-overflow: initial;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.title-subcribe{
+    font-weight: 600;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+#email{
+    background-color: #151414;
+    color: #FFFFFF;
+    padding-left: 10px;
+    font-size: 18px;
+    height: 64px;
+    border: #151414;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+}
+.number{
+    margin-top: 16px;
+    margin-bottom: 70px;
+}
+.icone-container{
+    margin-top: 45px;
+    display: flex;
+    gap: 30px;
+}
+/* end footer */
+/* -------------------------------- */
+/* Thank You */
